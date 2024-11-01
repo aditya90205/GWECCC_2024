@@ -7,6 +7,7 @@ import Schedule from "./components/Schedule";
 import RegistrationForm from "./components/RegistrationForm";
 import "./App.css";
 import Footer from "./components/Footer";
+import Speakers from "./components/Speakers";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Banner />
 
       <About />
+      <Speakers />
       <Schedule />
       <RegistrationForm />
       <Footer />

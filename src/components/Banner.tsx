@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import banner2 from "../assets/images/bannerr1.jpg";
 import banner3 from "../assets/images/bannerr2.jpg";
 import banner4 from "../assets/images/bannerr3.jpg";
+import banner1 from "../assets/images/bannerr4.jpg";
 
 const Banner = () => {
   const settings = {
@@ -18,7 +19,7 @@ const Banner = () => {
     arrows: false,
   };
 
-  const images = [banner3, banner4, banner2];
+  const images = [banner1, banner3, banner4, banner2];
 
   return (
     <section className="h-full">
