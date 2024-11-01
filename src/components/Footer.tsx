@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-r from-blue-100 to-blue-800 text-white py-6">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 flex-col md:flex-row">
             <img src={logo} alt="GWECCC Logo" className="h-16 w-32" />
           
             <span className="text-sm">Global Water, Energy and Climate Change Congress</span>
