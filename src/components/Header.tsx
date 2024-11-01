@@ -90,7 +90,7 @@ const Header: React.FC= () => {
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden z-10 bg-blue-200 absolute top-16 left-0 w-full transition-transform transform ${
+        className={`lg:hidden z-10 bg-blue-200 absolute top-24 left-0 w-full transition-transform transform ${
           navOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
