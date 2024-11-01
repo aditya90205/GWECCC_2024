@@ -6,7 +6,7 @@ import About from "./components/About";
 import Schedule from "./components/Schedule";
 import RegistrationForm from "./components/RegistrationForm";
 import "./App.css";
-
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +18,7 @@ const App: React.FC = () => {
       <About />
       <Schedule />
       <RegistrationForm />
+      <Footer />
     </div>
   );
 };
