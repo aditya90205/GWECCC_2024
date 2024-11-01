@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-Firstly run npm i or npm install command on terminal for install all the dependencies which is rquired for run the project
+Firstly run npm i or ### `npm install` command on terminal for install all the dependencies which is rquired for run the project
 
 In the project directory, you can run:
 
